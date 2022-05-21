@@ -8,7 +8,7 @@ const DATABASE_URL =
 		: process.env.DATABASE_URL
 
 module.exports = {
-	VERSION: '2.2.7',
+	VERSION: '2.2.8',
 	SESSION_ID: process.env.SESSION_ID || '',
 	DATABASE:
 		DATABASE_URL === './database.db'
